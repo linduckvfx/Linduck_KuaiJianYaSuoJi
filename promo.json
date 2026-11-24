@@ -1,0 +1,41 @@
+{
+  "_說明": "林鴨子插件的更新通知廣告位。改這個檔案，所有已安裝的插件下次跳通知時就會套用，不用重發版本。欄位說明見插件的 js/promo_config.js。",
+  "_注意": "1) 換檔期或換產品一定要同時換 id，否則看過 4 次或按過『不再提醒』的人不會看到新的。2) 圖片換成別的產品時要填完整網址（https://...），插件內的相對路徑只對內建那組有效。3) 時間格式要帶時區 +08:00。4) 想整個關掉就把 enabled 改成 false。",
+
+  "enabled": true,
+  "id": "kuaijian-bf-2026",
+  "style": "banner",
+
+  "image": "assets/promo/kuaijian_thumb.png",
+  "banner": "assets/promo/kuaijian_banner.png",
+  "hero": "assets/promo/linduck_hero.png",
+  "heroEmoji": "🎉",
+  "icon": "✂️",
+
+  "tag": "自動剪輯插件",
+  "title": "快剪鴨縮機",
+  "desc": "口播影片自動抓重點、自動上字卡，一鍵剪成 Reels。也是林鴨子開發的新工具。",
+  "quote": "我覺得必須得買，一定得裝",
+  "cta": "看看它怎麼做到",
+  "url": "https://lihi1.me/2EXzn",
+
+  "deal": {
+    "title": "黑色星期五限時優惠",
+    "code": "BLACKDUCK",
+    "note": "結帳輸入折扣碼現折 500",
+    "date": "11/27 - 11/30",
+    "priceBefore": "NT$1,990",
+    "priceAfter": "NT$1,490",
+    "since": "2026-11-26T23:50:00+08:00",
+    "until": "2026-11-30T23:59:59+08:00"
+  },
+
+  "dealDialog": {
+    "title": "發現大、大、大優惠！",
+    "subtitle": "鴨字幕已經是最新版 v{CURRENT}",
+    "cta": "看看優惠"
+  },
+
+  "since": "2026-11-26T23:50:00+08:00",
+  "expires": ""
+}
